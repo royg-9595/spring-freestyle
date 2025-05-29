@@ -20,6 +20,6 @@ public class HelloWorldControllerTest {
 
         // Assert that the response status is 200 OK and the response body is "Hello World!"
         assertEquals(200, response.getStatusCodeValue());
-        assertEquals("Hello Anjani!", response.getBody());
+        assertEquals("Hello Anjani Jayanth Roy!", response.getBody());
     }
 }
